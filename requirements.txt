@@ -1,0 +1,13 @@
+# ocr-lote.py e o executável
+pillow>=10.0
+
+# pdf2md.py (conversor de linha de comando)
+pdfplumber>=0.10.0
+
+# testes
+pytest>=8.0
+reportlab>=4.0
+pypdf>=4.0
+
+# só para montar o executável (montar-executavel.bat instala sozinho)
+# pyinstaller>=6.0

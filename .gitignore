@@ -1,0 +1,29 @@
+# Nunca versionar documentos reais (sigilo e LGPD)
+*.pdf
+*.docx
+*.xlsx
+!data/*.pdf
+
+# Resultados e progresso das conversões
+* - OCR.md
+*.progresso.jsonl
+!data/exemplo-misto - OCR.md
+
+# Pacotes de idioma do Tesseract (baixar à parte, ver src/tessdata/LEIA-ME.md)
+src/tessdata/*.traineddata
+
+# Executável e arquivos de montagem
+dist/
+build/
+*.exe
+*.spec
+src/ocr_lote.py
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Ambiente e segredos
+.env
+.venv/
