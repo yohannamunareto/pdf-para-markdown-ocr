@@ -1,0 +1,5 @@
+# PDFs e imagens são binários: o Git não mexe nas quebras de linha
+*.pdf binary
+*.png binary
+*.traineddata binary
+*.exe binary
